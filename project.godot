@@ -84,6 +84,10 @@ import/blender/enabled=false
 
 menu_option=""
 
+[gui]
+
+theme/custom_font="res://asset/font/fusion-pixel-12px-proportional-zh_hans.woff2"
+
 [input]
 
 ui_accept={
@@ -531,6 +535,7 @@ pointing/emulate_touch_from_mouse=true
 
 [internationalization]
 
+locale/translations=PackedStringArray("res://asset/translation/translation.en.translation", "res://asset/translation/translation.zh_CN.translation", "res://asset/translation/translation.zh_HK.translation")
 locale/translation_remaps={}
 locale/language_filter=[]
 locale/country_filter=[]
